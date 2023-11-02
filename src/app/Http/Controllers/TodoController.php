@@ -72,4 +72,3 @@ class TodoController extends Controller
         return response()->json(['is_completed' => $todo->is_completed]);
     }
 }
-
